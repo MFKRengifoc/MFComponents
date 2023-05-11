@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mfbuttonicontext.MFButtonIconFragment"
+    android:orientation="vertical">
+    <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+        style="@style/MFChip.small"
+        app:mf_chip_title_text="Titulo"
+        app:mf_chip_value_text="Contenido"
+        app:mf_chip_icon_startIcon="@drawable/ic_location"
+        app:mf_chip_color_value_text="?primary"
+        app:mf_chip_background_color="?primary_onBackground"/>
+    <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+        android:layout_width="match_parent"
+        style="@style/MFChip.medium"
+        app:mf_chip_title_text="Titulo"
+        app:mf_chip_value_text="Contenido"
+        app:mf_chip_icon_startIcon="@drawable/ic_location" />
+    <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+        android:layout_width="match_parent"
+        style="@style/MFChip.large"
+        app:mf_chip_title_text="Titulo"
+        app:mf_chip_value_text="Contenido"
+        app:mf_chip_icon_startIcon="@drawable/ic_location"
+        app:mf_chip_color_value_text="?primary"
+        app:mf_chip_background_color="?primary_onBackground" />
+    <LinearLayout
+        android:id="@+id/activity_mfchip_box"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mfmodalbottomsheet.MFModalBottomSheetFragment"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/activity_mf_modal_but"
+        style="@style/MFButtonTextIcon.small"
+        app:mf_button_text="Abrir modal"/>
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/activity_mf_modal_time_but"
+        style="@style/MFButtonTextIcon.medium"
+        app:mf_button_text="Abrir modal con tiempo"
+        android:layout_marginTop="15dp"/>
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/activity_mf_modal_no_cancel_but"
+        style="@style/MFButtonTextIcon.large"
+        app:mf_button_text="Abrir modal sin boton de cancelar"
+        android:layout_marginTop="15dp"/>
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/activity_mf_modal_no_accept_but"
+        style="@style/MFButtonTextIcon.extraLarge"
+        app:mf_button_text="Abrir modal sin botonones"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MFComponentsNav</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_mfbuttonicontext">MFButtonIconText</string>
+    <string name="menu_mfblabel">MFLabel</string>
+    <string name="menu_mfchip">MFChip</string>
+    <string name="menu_mfimageview">MFImageView</string>
+    <string name="menu_mfmodalbottomsheet">MFModalBottomSheet</string>
+    <string name="menu_mfmaps">MFMaps</string>
+
+
+    <string name="google_maps_key">AIzaSyB-zck85DKrbM4-0Snw03cHpEa6aSHdEA8</string>
+    <!--  MFModalBottomSheet  -->
+    <string name="mf_modal_bottom_sheet_booking_trip_accept_label">Aceptar</string>
+    <string name="mf_modal_bottom_sheet_booking_trip_denied_label">Denegar</string>
+
+
+    <!--  MFTripFinOptions  -->
+    <string name="mf_fin_trip_options_label">El viaje ha finalizado</string>
+    <string name="mf_fin_trip_options_title_goto_calification">Calificar al conductor</string>
+    <string name="mf_fin_trip_options_fin_trip_title_calificate_next_time">En otro momento</string>
+
+
+    <!--  MFTripInfoClient  -->
+    <string name="mf_trip_info_booking_client_title_label">Resumen del viaje</string>
+    <string name="mf_trip_info_booking_client_origin_label">Origen</string>
+    <string name="mf_trip_info_booking_client_destination_label">Destino</string>
+    <string name="mf_trip_info_booking_client_distance_time_label">Distancia y Duración</string>
+    <string name="mf_trip_info_booking_client_money_label">Costo</string>
+    <string name="mf_trip_info_booking_client_loading_label">Cargando…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

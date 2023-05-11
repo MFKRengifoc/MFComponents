@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.manoffocus.mfcomponentsnav.components.mfimageview.MFImageView
+        android:id="@+id/imageView"
+        style="@style/MFImageView.small"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:mf_image_draw="@drawable/mf" />
+
+    <com.manoffocus.mfcomponentsnav.components.mflabel.MFLabel
+        style="@style/MFLabel.medium"
+        app:mf_label_formattedText="MFComponents" />
+</LinearLayout>

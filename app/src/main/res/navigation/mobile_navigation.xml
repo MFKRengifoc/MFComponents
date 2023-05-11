@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.manoffocus.mfcomponentsnav.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_mfbuttonicontext"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mfbuttonicontext.MFButtonIconFragment"
+        android:label="@string/menu_mfbuttonicontext"
+        tools:layout="@layout/fragment_mf_button_icon_text" />
+    <fragment
+        android:id="@+id/nav_mflabel"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mflabel.MFLabelFragment"
+        android:label="@string/menu_mfbuttonicontext"
+        tools:layout="@layout/fragment_mf_label" />
+    <fragment
+        android:id="@+id/nav_mfimageview"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mfimageview.MFImageViewFragment"
+        android:label="@string/menu_mfimageview"
+        tools:layout="@layout/fragment_mf_imageview" />
+    <fragment
+        android:id="@+id/nav_mfchip"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mfchip.MFChipFragment"
+        android:label="@string/menu_mfchip"
+        tools:layout="@layout/fragment_mf_imageview" />
+    <fragment
+        android:id="@+id/nav_mfmodalbottomsheet"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mfmodalbottomsheet.MFModalBottomSheetFragment"
+        android:label="@string/menu_mfmodalbottomsheet"
+        tools:layout="@layout/fragment_mf_modal_bottom_sheet" />
+    <fragment
+        android:id="@+id/nav_mfmaps"
+        android:name="com.manoffocus.mfcomponentsnav.ui.mfmaps.MFMapsFragment"
+        android:label="@string/menu_mfmaps"
+        tools:layout="@layout/fragment_mf_maps" />
+</navigation>

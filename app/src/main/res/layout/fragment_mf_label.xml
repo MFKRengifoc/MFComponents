@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mfbuttonicontext.MFButtonIconFragment"
+    android:orientation="vertical">
+    <com.manoffocus.mfcomponentsnav.components.mflabel.MFLabel
+        style="@style/MFLabel.small"
+        app:mf_label_formattedText="Small"
+        android:layout_marginVertical="5dp"/>
+    <com.manoffocus.mfcomponentsnav.components.mflabel.MFLabel
+        style="@style/MFLabel.medium"
+        app:mf_label_formattedText="Medium"
+        android:layout_marginVertical="5dp"/>
+    <com.manoffocus.mfcomponentsnav.components.mflabel.MFLabel
+        style="@style/MFLabel.large"
+        app:mf_label_formattedText="Large"
+        android:layout_marginVertical="5dp"/>
+    <com.manoffocus.mfcomponentsnav.components.mflabel.MFLabel
+        style="@style/MFLabel.extraLarge"
+        app:mf_label_formattedText="Extra large"
+        android:layout_marginVertical="5dp"/>
+</LinearLayout>

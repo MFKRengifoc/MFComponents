@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".components.mfmodalbottomsheet.MFTripInfoClient">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:weightSum="4.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/mf_trip_info_booking_client_title_label"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+            android:id="@+id/mf_trip_info_origin_data_chip"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            app:mf_chip_color_value_text="?primary"
+            app:mf_chip_icon_startIcon="@drawable/ic_location"
+            app:mf_chip_title_text="@string/mf_trip_info_booking_client_origin_label"
+            app:mf_chip_value_text="@string/mf_trip_info_booking_client_loading_label"
+            app:mf_chip_background_color="@android:color/transparent"/>
+
+        <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+            android:id="@+id/mf_trip_info_destination_data_chip"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            app:mf_chip_color_value_text="?primary"
+            app:mf_chip_icon_startIcon="@drawable/ic_my_location"
+            app:mf_chip_title_text="@string/mf_trip_info_booking_client_destination_label"
+            app:mf_chip_value_text="@string/mf_trip_info_booking_client_loading_label"
+            app:mf_chip_background_color="@android:color/transparent" />
+
+        <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+            android:id="@+id/mf_trip_info_distance_time_data_chip"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            app:mf_chip_color_value_text="?primary"
+            app:mf_chip_icon_startIcon="@drawable/ic_time"
+            app:mf_chip_title_text="@string/mf_trip_info_booking_client_distance_time_label"
+            app:mf_chip_value_text="@string/mf_trip_info_booking_client_loading_label"
+            app:mf_chip_background_color="@android:color/transparent" />
+        <com.manoffocus.mfcomponentsnav.components.mfchip.MFChip
+            android:id="@+id/mf_trip_info_price_data_chip"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            app:mf_chip_color_value_text="?primary"
+            app:mf_chip_icon_startIcon="@drawable/ic_money"
+            app:mf_chip_title_text="@string/mf_trip_info_booking_client_money_label"
+            app:mf_chip_value_text="@string/mf_trip_info_booking_client_loading_label"
+            app:mf_chip_background_color="@android:color/transparent" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mfbuttonicontext.MFButtonIconFragment"
+    android:orientation="vertical">
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/main_activity_small_but"
+        style="@style/MFButtonTextIcon.small"
+        android:layout_marginVertical="5dp"
+        app:mf_button_icon="@drawable/mf_imageview_bg_error_loading_min"
+        app:mf_button_text="Pequeño" />
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/main_activity_medium_but"
+        style="@style/MFButtonTextIcon.medium"
+        android:layout_marginVertical="5dp"
+        app:mf_button_icon="@drawable/mf_imageview_loading_min"
+        app:mf_button_text="Medio" />
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/main_activity_large_but"
+        style="@style/MFButtonTextIcon.large"
+        android:layout_marginVertical="5dp"
+        app:mf_button_icon="@drawable/mf_imageview_bg_error_loading_min"
+        app:mf_button_text="Largo" />
+    <com.manoffocus.mfcomponentsnav.components.mfbuttontexticon.MFButtonTextIcon
+        android:id="@+id/main_activity_extralarge_but"
+        style="@style/MFButtonTextIcon.extraLarge"
+        android:layout_marginVertical="5dp"
+        app:mf_button_icon="@drawable/mf_imageview_bg_error_loading_min"
+        app:mf_button_text="Boton Extra Largo" />
+</LinearLayout>
